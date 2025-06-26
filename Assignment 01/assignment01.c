@@ -1,6 +1,6 @@
 /*********************************************************
- * Program: Modular Input-Output Practice in C
- * Author : [Your Name]
+ * Program: Modular Input-Output Practice in C MySirG
+ * Author : Sanjay Kumar
  * Date   : 16-06-2025
  * Purpose: Practice I/O and function modularization
  *********************************************************/
