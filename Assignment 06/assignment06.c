@@ -13,7 +13,7 @@ void convert() {
     printf("Enter the amount in USD: ");
     scanf("%f", &USD);
 
-    // ✅ Validation: Amount should be non-negative
+    // Validation: Amount should be non-negative
     if (USD < 0) {
         printf(" Error: USD amount cannot be negative.\n");
         return;
@@ -21,7 +21,7 @@ void convert() {
 
     float INR = USD * USD_RATE;
 
-    printf("💱 Converted Amount: $%.2f USD = ₹%.2f INR\n", USD, INR);
+    printf(" Converted Amount: $%.2f USD = ₹%.2f INR\n", USD, INR);
 }
 
 
@@ -34,7 +34,7 @@ void convert() {
 int rotate() {
     int num = 123;
 
-    // ✅ Break number into digits
+    //  Break number into digits
     int n1 = num % 10;       // Last digit = 3
     int newN1 = num / 10;    // Remaining = 12
 
@@ -43,7 +43,7 @@ int rotate() {
 
     int rotated = n1 * 100 + n2 * 10 + newN2; // 312
 
-    printf("🔁 Rotated Number: %d → %d\n", num, rotated);
+    printf(" Rotated Number: %d → %d\n", num, rotated);
     return 0;
 }
 
@@ -73,7 +73,7 @@ void printValues() {
 
 
 /**
- * 🔹 Main Function
+ *  Main Function
  * Purpose: Run and test individual modules
  */
 int main() {
