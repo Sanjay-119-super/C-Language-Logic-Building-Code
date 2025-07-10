@@ -109,8 +109,8 @@ void fibo(int a, int b, int n)
  ******************************************************************************/
 int digitCount(int n)
 {
-    if(n < 10)
-        return 1;
+    if(n == 0)
+        return 0;
     return 1 + digitCount(n / 10);
 }
 
